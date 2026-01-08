@@ -122,7 +122,7 @@ nav ul li a {
     line-height: 40px;
 }
 
-.title-description h1{
+.title-description h1 {
     font-size: 48px;
 }
 
@@ -145,13 +145,53 @@ nav ul li a {
     border-radius: 5px;
     box-shadow: 5px 5px 25px rgb(202, 200, 200);
     background-color: #ffffff;
-    
+
 }
 
-.card img{
+.card img {
     width: 50px;
     height: 50px;
     background: rgba(249, 85, 85, 1);
     padding: 5px;
     border-radius: 50%;
+}
+
+/* Second Brain Section  */
+
+.second-brain-section {
+    width: 100%;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.second-brain-img {
+    width: 600px;
+    height: 600px;
+}
+
+.secound-brain-content {
+    width: 50%;
+    padding: 120px 50px;
+
+}
+
+.secound-brain-content span p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.secound-brain-content h2{
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.second-brain-list {
+    list-style-image: url('../assets/CheckCircle.png');
+    line-height: 25px;
+    padding-left: 25px;
+}
+
+.second-brain-list li {
+    font-size: 16px;
 }
