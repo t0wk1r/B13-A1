@@ -226,3 +226,40 @@ nav ul li a {
     width: fit-content;
     margin: 20px auto;
 }
+
+/* footer section */
+
+footer{
+    width: 100%;
+    padding: 120px 120px 0;
+    background-color: rgba(0, 25, 49, 1);
+}
+.top-footer{
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.social-section{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.social-section img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    color: #ffffff;
+}
+
+.copyright{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px;
+    color: #ffffff;
+    margin-top: 25px;
+}
