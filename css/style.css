@@ -195,3 +195,34 @@ nav ul li a {
 .second-brain-list li {
     font-size: 16px;
 }
+
+/*  Early Access Section */
+.early-section{
+    width: 100%;
+    padding: 0 120px 120px;
+}
+
+.inner-section{
+    width: 100%;
+    padding: 80px 40px;
+    background-color: rgba(247, 246, 242, 1);
+    text-align: center;
+}
+
+.inner-section h1{
+    font-size: 48px;
+}
+
+.early-btn{
+    padding: 12px 16px;
+    background-color: #469165;
+    color: white;
+    font-size: 16px;
+    border: 2px solid #469165;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 20px auto;
+}
