@@ -6,6 +6,7 @@
     font-family: "Inter", sans-serif;
 }
 
+
 /* navbar section */
 .navbar-section {
     width: 100%;
@@ -47,8 +48,14 @@ nav ul li a {
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600;
+    transition: 0.3s;
 }
 
+.navbar-btn:hover{
+    background-color: #ffffff;
+    color: #52996f;
+    border: 2px solid #52996f;
+}
 /* Banner Section */
 
 .banner-section {
@@ -102,14 +109,25 @@ nav ul li a {
     border-radius: 4px;
     margin: 20px 10px;
     display: flex;
+    transition: 0.3s;
 
+}
+
+.btn-group button:hover{
+    background-color: transparent;
+    border: 2px solid #ffffff;
 }
 
 .btn-group button:last-child {
     background-color: transparent;
     border: 2px solid white;
+    transition: 0.3s;
 }
 
+.btn-group button:last-child:hover{
+    background-color: #469165;
+    border: 2px solid #469165;
+}
 /* notes-section */
 .notes-section {
     width: 100%;
@@ -227,7 +245,14 @@ nav ul li a {
     align-items: center;
     width: fit-content;
     margin: 20px auto;
+    transition: 0.3s;
 }
+
+.early-btn:hover{
+    background-color: black;
+    
+}
+
 
 /* footer section */
 
