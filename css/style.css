@@ -207,13 +207,17 @@ nav ul li a {
 }
 
 .second-brain-list {
-    list-style-image: url('../assets/CheckCircle.png');
+    /* list-style-image: url('../assets/CheckCircle.png'); */
+    position: absolute;
     line-height: 25px;
-    padding-left: 25px;
+    /* padding-left: 25px; */
+    margin-top: 10px;
 }
 
 .second-brain-list li {
     font-size: 16px;
+    display: flex;
+    align-items: center;
 }
 
 /*  Early Access Section */
